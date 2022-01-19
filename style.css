@@ -2,13 +2,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* body {
-  min-height: 3000px;
-} */
+body {
+  background-color: #f7f9fd;
+}
 
 /* NAVBAR */
 
 /* SLIDER */
 #slider {
   padding-top: 5rem;
+}
+#button-card {
+  width: 130px;
 }
