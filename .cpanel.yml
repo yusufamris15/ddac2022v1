@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1677703/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp alur.html $DEPLOYPATH
+    - /bin/cp syarat.html $DEPLOYPATH
+    - /bin/cp timeline.html $DEPLOYPATH
+    - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R node_modules $DEPLOYPATH
