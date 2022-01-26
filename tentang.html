@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="assets/Logo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tentang.html" />
+    <link rel="stylesheet" href="mekanisme.html" />
+    <link rel="stylesheet" href="timeline.html" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <title>DDAC 2022</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 mb-5 bg-body rounded bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#slider">
+          <img src="assets/Logo/DAC SITP Ori.svg" alt="" width="100" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html">Beranda</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="btn fw-bolder" style="background-color: #2097ff" target="_blank" href="https://ksana.in/daftardac2022">Daftar</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tentang Kompetisi </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="tentang.html">Deskripsi Umum</a></li>
+                <li><a class="dropdown-item" href="tentang.html">Ruang Lingkup Kegiatan</a></li>
+                <li><a class="dropdown-item" href="tentang.html">Maksud dan Tujuan</a></li>
+                <li><a class="dropdown-item" href="tentang.html">Indikator Luaran</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" target="_blank" href="https://ksana.in/dataset">Dataset</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contactus">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Mekanisme Komp. </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="mekanisme.html">Persyaratan Peserta</a></li>
+                <li><a class="dropdown-item" href="mekanisme.html">Alur Pendaftaran</a></li>
+                <li><a class="dropdown-item" href="mekanisme.html">Mekanisme Penilaian</a></li>
+                <li><a class="dropdown-item" href="timeline.html">Timeline Kompetisi</a></li>
+                <li><a class="dropdown-item" href="mekanisme.html">Penghargaan dan Hadiah Pemenang</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+    <!-- AWAL NAV CARDS -->
+    <section id="products">
+      <div class="container pb-5">
+        <div class="row"></div>
+      </div>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col">
+            <h3 class="fw-bold text-center">Tentang Kompetisi</h3>
+            <br />
+          </div>
+        </div>
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-8">
+            <div class="card">
+              <div class="shadow-sm card-body">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-deskripsi-tab" data-bs-toggle="pill" data-bs-target="#pills-deskripsi" type="button" role="tab" aria-controls="pills-deskripsi" aria-selected="true">Deskripsi Umum</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lingkup-tab" data-bs-toggle="pill" data-bs-target="#pills-lingkup" type="button" role="tab" aria-controls="pills-lingkup" aria-selected="false">Ruang Lingkup</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-maksud-tab" data-bs-toggle="pill" data-bs-target="#pills-maksud" type="button" role="tab" aria-controls="pills-maksud" aria-selected="false">Maksud & Tujuan</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-indikator-tab" data-bs-toggle="pill" data-bs-target="#pills-indikator" type="button" role="tab" aria-controls="pills-indikator" aria-selected="false">Indikator Luaran</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-deskripsi" role="tabpanel" aria-labelledby="pills-deskripsi-tab">
+                    <p style="text-align: justify; text-justify: inter-word" ;>
+                      Pesatnya perkembangan Teknologi Informasi dan Komunikasi (TIK) yang terjadi saat ini direspon pemerintah dengan mentransformasikan layanan pemerintahan agar lebih mudah diakses, efektif dan akuntabel melalui
+                      pemanfaatan TIK. Pemerintah mulai menerapkan aspek digital dalam bentuk e-government sebagai upaya memperbaiki layanan yang berfokus pada masyarakat dan stakeholder (citizen-centric), meningkatkan efisiensi proses
+                      bisnis dan operasional, meningkatkan kualitas layanan melalui digitalisasi, membangun data driven organization untuk perumusan kebijakan yang lebih efisien, mendorong budaya kerja yang kolaboratif dan terdigitalisasi,
+                      serta meningkatkan kolaborasi dengan lembaga instansi pemerintah yang lain. Hal ini telah dirangkum menjadi strategi transformasi digital dalam rangka menjalankan Roadmap Reformasi Birokrasi Nasional menuju Indonesia
+                      Maju.
+                    </p>
+                    <p style="text-align: justify; text-justify: inter-word" ;>
+                      Era transformasi digital dan Teknologi Informasi 4.0 saat ini telah menciptakan produksi data yang berkembang secara masif dan luas. Pemanfaatan data sebagai aset organisasi dapat menghasilkan informasi yang faktual
+                      dalam mendukung arah kebijakan dan kebutuhan organisasi yang dinamis, agile, dan responsive terhadap perubahan agar dapat berkompetisi dan memberikan layanan kepada para stakeholders secara berkesinambungan. Salah satu
+                      langkah percepatan transformasi digital dapat dilakukan dengan menyiapkan SDM talenta digital sebagaimana dimaksud dalam Peraturan Presiden nomor 95 tahun 2018 tentang SPBE.
+                    </p>
+                    <p style="text-align: justify; text-justify: inter-word" ;>
+                      Direktorat Jenderal Perbendaharaan sendiri memiliki sejarah panjang akan perubahan organisasi yang dimulai dengan transformasi keuangan yakni perubahan cara pengelolaan keuangan negara melalui disahkannya paket
+                      Undang-undang Keuangan Negara tahun 2003, kemudian dilanjutkan dengan reformasi birokrasi yang mengubah tata kelola organisasi guna memperbaiki layanan sehingga menjadikan DJPb sebuah institusi yang reputable
+                      organization.
+                    </p>
+                    <p style="text-align: justify; text-justify: inter-word" ;>
+                      Selain itu, DJPb memiliki kemewahan berupa sumber daya data APBN yang sangat detail baik itu penerimaan maupun pengeluaran serta memiliki jaringan koordinasi terluas yang menjangkau pusat maupun daerah,
+                      Kementerian/Lembaga, Bank, maupun pemerintah daerah yang tidak dimiliki oleh unit eselon I lain. Pengalaman ini menjadi modal besar DJPb guna membangun kultur baru menjadi data-driven organization melalui pengadopsian
+                      emerging technology yang menghasilkan knowledge dari proses analisis dan penggalian informasi yang biasa dikenal dengan Data Analytics.
+                    </p>
+                    <p style="text-align: justify; text-justify: inter-word" ;>
+                      DJPb telah merencanakan penyediaan SDM talenta digital yang menguasai keahlian data analytics agar mampu memberdayakan potensi data maupun informasi keuangan guna mendukung analisis dan pengambilan kebijakan organisasi
+                      sebagaimana keputusan Direktur Jenderal Perbendaharaan Nomor KEP-193/PB/2020 tentang Rencana Strategis DJPb Tahun 2020-2024.
+                    </p>
+                    <p style="text-align: justify; text-justify: inter-word" ;>
+                      Selanjutnya, melalui peringatan Hari Bakti Perbendaharaan yang bertujuan untuk memperkuat identitas institusi sebagai upaya meningkatkan prduktivitas pegawai DJPb , memperkuat Esprit de Corps di lingkup pegawai DJPb ,
+                      memperkokoh DJPb dalam menjalankan fungsi perbendaharaan (Treasury) dalam rangka implementasi kebijakan fiskal pemerintah dan pengelolaan Keuangan Negara, dan memperkuat komunikasi publik DJPb dengan seluruh
+                      stakeholders. Direktorat SITP dengan bangga mempersembahkan Data Analytics Competition Tahun 2022 sebagai ajang tahunan yang mendukung penyediaan SDM talenta digital yang menguasai keahlian data analytics agar mampu
+                      memberdayakan potensi data maupun informasi keuangan guna mendukung analisis dan pengambilan kebijakan organisasi.
+                    </p>
+                    <p style="text-align: justify; text-justify: inter-word" ;>
+                      Data Analytics Competition tahun 2022 ini merupakan kelanjutan kompetisi di bidang data analytics yang pertama kali diselenggarakan pada tahun sebelumnya yang mencerminkan kesadaran organisasi terhadap pentingnya data
+                      dan analisis data di lingkup DJPb dengan maksud menggali talenta baru dalam memanfaatkan data perbendaharaan untuk mendukung tugas fungsi DJPb dalam hal RCE (Regional Chief Economist).
+                    </p>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-lingkup" role="tabpanel" aria-labelledby="pills-lingkup-tab">
+                    <p>Beberapa hal penting terkait ruang lingkup penyelenggaraan DJPb Data Analytics Competition 2022 adalah sebagai beikut:</p>
+                    <ul>
+                      <li>Kegiatan ini mengusung tema “Pengembangan Digital Treasury untuk Peningkatan Akuntabilitas APBN”.</li>
+                      <li>Adapun tagline DDAC 2022 kali ini: “The enhancement of Treasury Competencies”</li>
+                      <li>Peserta kegiatan ini dibatasi hanya untuk ASN di lingkungan DJPb baik kantor pusat, kantor wilayah maupun kantor pelayanan perbendaharaan negara. Kecuali penyelenggara kegiatan</li>
+                      <li>Penyelenggara kegiatan ini adalah Direktorat Sistem Informasi dan Teknologi Perbendaharaan.</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-maksud" role="tabpanel" aria-labelledby="pills-maksud-tab">
+                    <p>
+                      DJPb Data Analytics Competition 2022 diselenggarakan dengan maksud melaksanakan rangkaian kegiatan dalam rangka Hari Bakti Perbendaharaan ke-18 Tahun 2022 sebagaimana nota dinas Sekretaris Direktorat Jenderal
+                      Perbendaharaan Nomor ND-250/PB/PB.2/2022 tentang Pelaksanaan Hari Bakti Perbendaharaan ke-18 Tahun 2022.
+                    </p>
+                    <p>Adapun penyelenggaraan DJPb Data Analytics Competition 2022 bertujuan:</p>
+                    <ul>
+                      <li>Mempertajam kompetensi SDM DJPb dan skill set di bidang analisis treasury melalui penerapan data analytics</li>
+                      <li>Mengidentifikasi minat, bakat, dan passion SDM DJPb dalam data analytics (scout talent)</li>
+                      <li>Meningkatkan kemampuan literasi dalam menyusun paper penelitian</li>
+                      <li>Memperkuat kapabilitas SDM dalam peran RCE Kanwil DJPb.</li>
+                    </ul>
+                  </div>
+                  <div class="tab-pane fade" id="pills-indikator" role="tabpanel" aria-labelledby="pills-indikator-tab">
+                    <p>Beberapa indikator luaran yang diharapkan dapat dicapai melalui penyelenggaraan DJPb Data Analytics Competition 2022 adalah sebagai berikut:</p>
+                    <ul>
+                      <li>
+                        Daftar Laporan Hasil Analisis dalam format paper yang mengacu pada format ITRev (INDONESIAN TREASURY REVIEW - JURNAL PERBENDAHARAAN, KEUANGAN NEGARA DAN KEBIJAKAN PUBLIK) atau JMP (Jurnal Manajemen Perbendaharaan).
+                      </li>
+                      <li>Daftar Kode Program/Model Data Analytics yang dikembangkan.</li>
+                      <li>Pemetaan kompetensi SDM DJPb dalam bidang treasury analisis.</li>
+                      <li>Indeks kompetensi SDM DJPb dalam melakukan fungsi RCE.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AKHIR NAV CARDS -->
+    <!-- FOOTER -->
+    <footer class="text-white" id="contactus" style="background-color: #073563">
+      <div class="container">
+        <div class="row pt-2">
+          <div class="col">
+            <h5 class="fw-bold">Contact Us</h5>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col">
+            <i class="bi bi-whatsapp" style="font-size: 0.8rem"> <a href="https://wa.link/xmxzzc" target="_blank" class="text-decoration-none fst-normal fw-normal" style="color: white">085762443544 (Mukhamad Hafidz) </a> </i>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col">
+            <i class="bi bi-telephone" style="font-size: 0.8rem"> <a href="tel:085762443544" target="_blank" class="text-decoration-none fst-normal fw-normal" style="color: white">085762443544 (Mukhamad Hafidz)</a> </i>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col">
+            <i class="bi bi-envelope" style="font-size: 0.8rem"> <a href="mailto:djpbdac@gmail.com" target="_blank" class="text-decoration-none fst-normal fw-normal" style="color: white">djpbdac@gmail.com</a> </i>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col">
+            <p style="font-size: 0.8rem">Copyright &copy;2022 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- AKHIR FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
