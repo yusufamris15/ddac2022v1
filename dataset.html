@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="assets/Logo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="tentang.html" />
+    <link rel="stylesheet" href="mekanisme.html" />
+    <!-- <link rel="stylesheet" href="timeline.html" /> -->
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <title>DDAC 2022</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 mb-5 bg-body rounded bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#slider">
+          <img src="assets/Logo/DAC SITP Ori.svg" alt="" width="100" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html">Beranda</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="btn fw-bolder" style="background-color: #2097ff" target="_blank" href="https://ksana.in/daftardac2022">Daftar</a>
+              </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tentang Kompetisi </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="tentang.html">Deskripsi Umum</a></li>
+                <li><a class="dropdown-item" href="tentang.html">Ruang Lingkup Kegiatan</a></li>
+                <li><a class="dropdown-item" href="tentang.html">Maksud dan Tujuan</a></li>
+                <li><a class="dropdown-item" href="tentang.html">Indikator Luaran</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" target="_blank" href="dataset.html">Dataset</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contactus">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Mekanisme Komp. </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="mekanisme.html">Persyaratan Peserta</a></li>
+                <li><a class="dropdown-item" href="mekanisme.html">Alur Pendaftaran</a></li>
+                <li><a class="dropdown-item" href="mekanisme.html">Mekanisme Penilaian</a></li>
+                <li><a class="dropdown-item" href="mekanisme.html">Timeline Kompetisi</a></li>
+                <li><a class="dropdown-item" href="mekanisme.html">Penghargaan dan Hadiah Pemenang</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- AWAL DATASET -->
+    <section id="dataset">
+      <div class="container pt-5">
+        <div class="container pb-5">
+          <div class="row"></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3 class="fw-bold text-center">Detail Dataset</h3>
+            <br />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <table class="table table-bordered table-hover table-responsive-md">
+              <thead class="table-dark">
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col justify-content-center">Nama Sistem</th>
+                  <th scope="col">Keterangan</th>
+                  <th scope="col">Tahun</th>
+                  <th scope="col">Nama Tabel</th>
+                  <th scope="col">Deskripsi Dataset</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>MPN</td>
+                  <td>Data Settlement MPN</td>
+                  <td>2019-2021</td>
+                  <td>T_BILLING_TRX</td>
+                  <td>Data settlement penerimaan negara melalui MPN G2 yang diagregasi berdasarkan lokasi bayar, bank bayar, kode akun penerimaan, bulan, jumlah transaksi dan nilai setor</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td rowspan="2">SIKP</td>
+                  <td>Data UMI</td>
+                  <td></td>
+                  <td></td>
+                  <td>Data penyaluran kredit Umi</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Data Penyaluran KUR</td>
+                  <td></td>
+                  <td></td>
+                  <td>Data Penyaluran KUR</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>HAI-DJPb</td>
+                  <td>Data Ticketing</td>
+                  <td>2019-2021</td>
+                  <td>HAI_TIKET_KEU_PRIME</td>
+                  <td>Data tiket haidjpb dari pengguna layanan terkait sistem informasi dan layanan Kemenkeu berdasarkan subject/topik pengaduan</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>OMSPAN</td>
+                  <td>Data DIPA</td>
+                  <td>2019-2021</td>
+                  <td>DM_REALISASI_PER_OUTPUT_2019 DM_REALISASI_PER_OUTPUT_2020 DM_REALISASI_PER_OUTPUT_2021</td>
+                  <td>Data realisasi belanja K/L berdasarkan BA, lokasi, program, kegiatan, output, jenis SPM, bulan, akun, jumlah transaksi, dan nilai realisasi</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td></td>
+                  <td>Data Realisasi APBN</td>
+                  <td>2019-2021</td>
+                  <td>MASTERAPL20.DM_REALISASI_PER_SATKER_2019 MASTERAPL20.DM_REALISASI_PER_SATKER_2020 MASTERAPL20.DM_REALISASI_PER_SATKER_2021</td>
+                  <td>Data realisasi belanja K/L berdasarkan BA, lokasi, program, kegiatan, output, jenis SPM, bulan, akun, jumlah transaksi, dan nilai realisasi</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td></td>
+                  <td>Data Penyerapan Dana Desa</td>
+                  <td>2020-2021</td>
+                  <td>V_DD_SERAP_2021</td>
+                  <td>Data realisasi penyerapan Dana Desa per tahap berdasarkan lokasi kabupaten/kota</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td></td>
+                  <td></td>
+                  <td>2020-2021</td>
+                  <td>V_DD_SALUR_2021</td>
+                  <td>Data realisasi penyaluran Dana Desa pada setiap KPPN berdasarkan lokasi kabupaten/kota</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td></td>
+                  <td>Data Penyaluran Dak Fisik</td>
+                  <td>2019-2021</td>
+                  <td>V_DAK_SP2D_BUN_2019 V_DAK_SP2D_BUN_2020 V_DAK_SP2D_BUN_2021</td>
+                  <td>Data realisasi penyaluran DAK Fisik berdasarkan lokasi, kegiatan, output, bidang, jumlah transaksi, dan nilai penyaluran</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td></td>
+                  <td>Data Uang Persediaan</td>
+                  <td>2019-2021</td>
+                  <td>MASTERAPL20.KARWAS_UP_V_2019@OMSPAN_PROD MASTERAPL20.KARWAS_UP_V_2020@OMSPAN_PROD MASTERAPL20.KARWAS_UP_V_2021@OMSPAN_PROD</td>
+                  <td>Data monitoring uang persediaan K/L berdasarkan data awal, dana di bendahara, dan dana yang sudah di-GUP-kan</td>
+                </tr>
+                <tr>
+                  <th scope="row">11</th>
+                  <td></td>
+                  <td>Data Kontrak</td>
+                  <td>2019-2021</td>
+                  <td>DWH2016.T_KONTRAK_MASTER_2019@OLAP23 DWH2016.T_KONTRAK_MASTER_2020@OLAP23 DWH2016.T_KONTRAK_MASTER_2021@OLAP23</td>
+                  <td>Data realisasi belanja kontraktual berdasarkan termin jatuh tempo</td>
+                </tr>
+                <tr>
+                  <th scope="row">12</th>
+                  <td>GPP</td>
+                  <td>Data Jumlah Pegawai</td>
+                  <td>2019-2021</td>
+                  <td>M_GAJI_2019@OLAPGPP M_GAJI_2020@OLAPGPP M_GAJI_2021@OLAPGPP</td>
+                  <td>Data rekapitulasi PNS (tanpa organik TNI/Polri) berdasarkan K/L, lokasi, dan kodefikasi kepegawaian (golongan, status aktif, status kawin, kedudukan, dan jabatan)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card text-center mb-5">
+              <div class="card-body">
+                <!-- <h5 class="card-title"></h5> -->
+                <p class="card-text">Tekan tombol di bawah ini untuk mengunduh Dataset yang Anda inginkan</p>
+                <a href="https://ksana.in/dataset" target="_blank" class="btn justify-content-center" id="button-card" style="background-color: #2097ff"><i class="bi bi-file-arrow-down-fill" style="color: black"></i> Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR DATASET -->
+
+    <!-- FOOTER -->
+    <footer class="text-white" id="contactus" style="background-color: #073563">
+      <div class="container">
+        <div class="row pt-2">
+          <div class="col">
+            <h5 class="fw-bold">Contact Us</h5>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col">
+            <i class="bi bi-whatsapp" style="font-size: 0.8rem"> <a href="https://wa.link/xmxzzc" target="_blank" class="text-decoration-none fst-normal fw-normal" style="color: white">085762443544 (Mukhamad Hafidz) </a> </i>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col">
+            <i class="bi bi-telephone" style="font-size: 0.8rem"> <a href="tel:085762443544" target="_blank" class="text-decoration-none fst-normal fw-normal" style="color: white">085762443544 (Mukhamad Hafidz)</a> </i>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col">
+            <i class="bi bi-envelope" style="font-size: 0.8rem"> <a href="mailto:djpbdac@gmail.com" target="_blank" class="text-decoration-none fst-normal fw-normal" style="color: white">djpbdac@gmail.com</a> </i>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col">
+            <p style="font-size: 0.8rem">Copyright &copy;2022 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- AKHIR FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

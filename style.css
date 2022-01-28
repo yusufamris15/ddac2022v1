@@ -15,3 +15,16 @@ body {
 #button-card {
   width: 130px;
 }
+
+/* TABLE */
+thead {
+  text-align: center;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+th {
+  vertical-align: middle;
+}

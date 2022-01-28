@@ -6,6 +6,7 @@ deployment:
     - /bin/cp mekanisme.html $DEPLOYPATH
     - /bin/cp tentang.html $DEPLOYPATH
     - /bin/cp timeline.html $DEPLOYPATH
+    - /bin/cp dataset.html $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
