@@ -16,6 +16,19 @@ body {
   width: 130px;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* PRODUCT */
+/* #cobatilt {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+#gambartilt {
+  transform: translateZ(20px);
+} */
+
 /* TABLE */
 thead {
   text-align: center;
