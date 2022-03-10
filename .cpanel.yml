@@ -13,6 +13,8 @@ deployment:
     - /bin/cp tim4.html $DEPLOYPATH
     - /bin/cp tim5.html $DEPLOYPATH
     - /bin/cp tim6.html $DEPLOYPATH
+    - /bin/cp tim7.html $DEPLOYPATH
+    - /bin/cp tim8.html $DEPLOYPATH
     - /bin/cp faq.html $DEPLOYPATH
     - /bin/cp vanilla-tilt.min.js $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
