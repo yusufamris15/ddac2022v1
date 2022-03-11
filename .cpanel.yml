@@ -16,9 +16,16 @@ deployment:
     - /bin/cp tim7.html $DEPLOYPATH
     - /bin/cp tim8.html $DEPLOYPATH
     - /bin/cp faq.html $DEPLOYPATH
+    - /bin/cp paper1.html $DEPLOYPATH
+    - /bin/cp paper2.html $DEPLOYPATH
+    - /bin/cp paper3.html $DEPLOYPATH
+    - /bin/cp paper4.html $DEPLOYPATH
+    - /bin/cp paper5.html $DEPLOYPATH
     - /bin/cp vanilla-tilt.min.js $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R docpaper $DEPLOYPATH
+    - /bin/cp -R paper $DEPLOYPATH
     - /bin/cp -R node_modules $DEPLOYPATH
