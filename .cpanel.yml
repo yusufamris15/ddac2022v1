@@ -20,7 +20,6 @@ deployment:
     - /bin/cp paper2.html $DEPLOYPATH
     - /bin/cp paper3.html $DEPLOYPATH
     - /bin/cp paper4.html $DEPLOYPATH
-    - /bin/cp paper5.html $DEPLOYPATH
     - /bin/cp vanilla-tilt.min.js $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
