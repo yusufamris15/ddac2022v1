@@ -24,7 +24,6 @@ deployment:
     - /bin/cp package.json $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R expaper $DEPLOYPATH
     - /bin/cp -R docpaper $DEPLOYPATH
     - /bin/cp -R paper $DEPLOYPATH
     - /bin/cp -R sertifikat $DEPLOYPATH
